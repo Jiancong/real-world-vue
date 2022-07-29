@@ -10,7 +10,7 @@
 import EventCard from '@/components/EventCard.vue';
 
 export default {
-  name: 'HomeView',
+  name: 'EventList',
   components: {
     EventCard,
   },
@@ -58,7 +58,7 @@ export default {
 };
 </script>
 
-<style scoped> 
+<style scoped>
 .events {
   display: flex;
   flex-direction: column;
